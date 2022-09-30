@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'SFProDisplay',sans-serif;
+}
+
+.container{
+    padding: 50px;
+    width: 830px;
+}
+
+form {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form input{
+    border: 1px solid #DEE7EF;
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    padding: 10px;
+}
+
+form button{
+    background-color: #004DFF;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-top: 18px;
+}
+
+form p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box_header{
+    color: #8E9AA7;
+}
+.box_flex{
+    height: 40px;    
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEE7EF;
+}
+
+img{
+    width: 20px;
+    margin: 5px;
+    height: 20px;
+}
+
+.edit_inp{
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid #DEE7EF;
+    left: 235px;
+    height: 25px;
+    outline: none;
+    width: 80px;
+    opacity: 0;
+    display: none;
+    transition: 200ms ease;
+}
+.edit_age{
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid #DEE7EF;
+    left: 490px;
+    height: 25px;
+    outline: none;
+    width: 80px;
+    opacity: 0;
+    transition: 200ms ease;
+    display: none;
+}
+.save_btn{
+    position: absolute;
+    left: 720px;
+    background-color: #004DFF;
+    border: none;
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    color: white;
+    opacity: 0;
+    transition: 200ms ease;
+    display: none;
+}
+
+.st_year{
+    transition: 200ms ease;
+}
